@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 :root{
-    --main-color:#d3ad7f;
-    --black:#13131a;
-    --bg:#010103;
+    --main-color:#2cec25;
+    --black:#19b30e;
+    --bg:#00420f;
     --border:.1rem solid rgba(255,255,255,.3);
 
 }
@@ -98,7 +98,7 @@ z-index: 1000;}
 }
 
 .header .navbar a:hover{
-    color: var(--main-color);
+    color: var(--green);
     border-bottom: .1rem solid var(--main-color);
     padding-bottom: .5rem;
 }
@@ -142,7 +142,7 @@ z-index: 1000;}
     height: 100%;
     width: 100%;
     font-size: 1.6rem;
-    color: var(--black);
+    color: var(--bg);
     padding: 1rem;
     text-transform: none;
 }
@@ -151,7 +151,7 @@ z-index: 1000;}
     cursor: pointer;
     font-size: 2.2rem;
     margin-right: 1.5rem;
-    color: var(--black);
+    color: var(--green);
 }
 
 .header .busca-form label:hover{
@@ -217,8 +217,8 @@ gap:1.5rem;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../img/coffee-beans-2258839_1920.jpg) no-repeat;
-    background-image: url(../img/coffee-beans-2258839_1920.jpg);
+    background: url(../img/abacate2.jpg) no-repeat; 
+    background-image: url(../img/abacate2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -230,7 +230,7 @@ gap:1.5rem;
 .home .content h3{
     font-size: 6rem;
     text-transform: uppercase;
-    color: #fff;
+    color: #ffffff;
 }
 
 .home .content p{
@@ -238,7 +238,7 @@ gap:1.5rem;
    font-weight: lighter;
    line-height: 1.8;
    padding: 1rem 0;
-    color: #eee;
+    color: #ffffff;
 }
 
 .about .row{
@@ -632,7 +632,7 @@ color: #fff;
 
 
   .header .navbar a{
-    color:var(--black);
+    color:var(--green);
     display: block;
     margin: 1.5rem;
     padding: .5rem;
